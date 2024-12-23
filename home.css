@@ -1,0 +1,27 @@
+/* Home page specific styles */
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+}
+
+.features {
+    position: relative;
+    z-index: 1;
+    margin-top: -50px;
+    padding-top: 100px;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}

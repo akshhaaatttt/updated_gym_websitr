@@ -1,0 +1,19 @@
+/* Buttons */
+.cta-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #ff3333;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

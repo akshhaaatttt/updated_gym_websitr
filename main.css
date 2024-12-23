@@ -1,0 +1,14 @@
+/* Main CSS file that imports all modules */
+@import 'reset.css';
+@import 'layout.css';
+@import 'header.css';
+@import 'hero.css';
+@import 'features.css';
+@import 'forms.css';
+@import 'membership.css';
+@import 'schedule.css';
+@import 'gallery.css';
+@import 'buttons.css';
+@import 'footer.css';
+@import 'home.css';
+@import 'auth.css';

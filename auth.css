@@ -1,0 +1,49 @@
+/* Login and Registration pages styles */
+.form-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.auth-form {
+    position: relative;
+    overflow: hidden;
+}
+
+.auth-form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(to right, #ff4d4d, #ff8080);
+}
+
+.form-group input {
+    background: #f8f9fa;
+    border: 2px solid transparent;
+}
+
+.form-group input:focus {
+    background: #fff;
+    border-color: #ff4d4d;
+    box-shadow: 0 0 0 3px rgba(255, 77, 77, 0.2);
+}
+
+.auth-form .cta-button {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.auth-form p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.auth-form a {
+    color: #ff4d4d;
+    text-decoration: none;
+}
+
+.auth-form a:hover {
+    text-decoration: underline;
+}

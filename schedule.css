@@ -1,0 +1,58 @@
+/* Schedule page specific styles */
+.schedule-section {
+    background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+    padding: 6rem 2rem;
+    min-height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.schedule-day {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-day h3 {
+    color: #ff4d4d;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #ff4d4d;
+    padding-bottom: 0.5rem;
+}
+
+.class-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.class-item:hover {
+    background: rgba(255, 77, 77, 0.1);
+    transform: translateX(5px);
+}
+
+.time {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.class-name {
+    color: #666;
+    font-weight: 500;
+}

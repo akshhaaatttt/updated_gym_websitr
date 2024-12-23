@@ -1,0 +1,79 @@
+/* Membership page specific styles */
+.membership-plans {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 6rem 2rem;
+}
+
+.plan-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.plan-card {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.plan-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.plan-card h3 {
+    color: #1a1a1a;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.plan-card .price {
+    font-size: 2.5rem;
+    color: #ff4d4d;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.plan-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.plan-card ul li {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #eee;
+    color: #666;
+}
+
+.plan-card ul li:last-child {
+    border-bottom: none;
+}
+
+.plan-card.featured {
+    background: linear-gradient(135deg, #ff4d4d 0%, #ff8080 100%);
+    color: white;
+}
+
+.plan-card.featured h3,
+.plan-card.featured .price,
+.plan-card.featured ul li {
+    color: white;
+}
+
+.plan-card.featured .cta-button {
+    background: white;
+    color: #ff4d4d;
+}
+
+.plan-card.featured .cta-button:hover {
+    background: #f8f9fa;
+}
